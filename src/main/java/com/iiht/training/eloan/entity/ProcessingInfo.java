@@ -1,15 +1,8 @@
 package com.iiht.training.eloan.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-
-@Entity
 public class ProcessingInfo {
 
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	
 	private Long id;
 	private Long loanAppId;
 	private Long loanClerkId;
